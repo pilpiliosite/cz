@@ -6,7 +6,6 @@
   path: about.html
 - name: Kontaktujte nás
   path: contact.html
-- name: Změnit jazyk
-  children:
-    - name: <a href="https://pilpil.io">English</a>
-    - name: <a href="https://pilpil.io">Chinese</a>
+- name: <a href="https://pilpil.io"><span class='flag-icon flag-icon-gb'></span></a>
+- name: <a href="https://pilpil.io/cn"><span class='flag-icon flag-icon-cn'></span></a>
+
