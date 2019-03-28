@@ -6,11 +6,7 @@
   path: about.html
 - name: Kontaktujte nás
   path: contact.html
-  name: Změnit jazyk
+- name: Změnit jazyk
   children:
-    - name: About Us
-      path: about.html
-    - name: Services
-      path: services.html
-    - name: Services 2
-      path: services-2.html
+    - name: <a href="https://pilpil.io">English</a>
+    - name: <a href="https://pilpil.io">Chinese</a>
