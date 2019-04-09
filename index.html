@@ -10,16 +10,16 @@ slides:
   title: Okořeněné zážitky
   image_bottom: images//arrows.png
   background: images/7a.jpg
-  
+
 principles_left:
 - title: Okořeněné zážitky
   content: Pilpili v gruzínštině znamená pepř. Každý z našich zájezdů vám nabídne jinou příchuť, kterou v obvyklých organizovaných zájezdech nenajdete. Jste milovníky přírody? Zajímá vás tradiční hudba, historie, nebo spíše součastná politická situace? Zprostředkujeme vám zkušenost, která nejlépe sedí vašim zájmům.
   icon: icon-basic-map
 - title: Flexibilní a na míru
-  content: Chceme, aby naše zájezdy naplnily vaše přání a očekávání. Zajímá vás konkrétní místo, specifický plán cesty nebo aktivita, kterou jste nenašli v naší nabídce? Chcete zorganizovat firemní cestu nebo teambuilding? Napište nám a společně zkusíme najít řešení přímo na míru vašim potřebám.   
+  content: Chceme, aby naše zájezdy naplnily vaše přání a očekávání. Zajímá vás konkrétní místo, specifický plán cesty nebo aktivita, kterou jste nenašli v naší nabídce? Chcete zorganizovat firemní cestu nebo teambuilding? Napište nám a společně zkusíme najít řešení přímo na míru vašim potřebám.
   icon: icon-arrows-shrink
 principles_right:
-- title: Společensky zodpovědní
+- title: Zodpovědní
   content: Je pro nás důležité, aby z našich služeb a z růstu turistického sektoru v Gruzii měli prospěch jak naši klienti, tak i místní společnost. Pracujeme s místními drobnými podnikateli, kterým důvěřujeme, preferujeme menší hotely a penziony patřící místním obyvatelům a vyhýbáme se klasickým turistickým pastem.
   icon: icon-basic-heart
 - title: Ohleduplní k přírodě
@@ -145,7 +145,7 @@ principles_right:
       </div>
     {% endfor %}
   </div>
-  <div class="large-6 columns">
+  <div class="large-8 columns">
     {% for principle in page.principles_right %}
       <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
           <div class="row">
@@ -155,10 +155,10 @@ principles_right:
                           <i class="{{principle.icon}}"author"></i>
                         </div>
                         <div class=" centered-text">
-        
+
                           <i class=>{{principle.title}}</i>
                         </div>
-        
+
                         </div>
                   </div>
               <div class="small-12 columns">
