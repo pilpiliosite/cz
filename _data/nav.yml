@@ -1,11 +1,10 @@
 - name: Hlavní stránka
-  path: index.html
+  path: cz/index.html
 - name: Zájezdy
-  path: tours.html
+  path: cz/tours.html
 - name: O nás
-  path: about.html
+  path: cz/about.html
 - name: Kontaktujte nás
-  path: contact.html
+  path: cz/contact.html
 - name: <a href="https://pilpil.io"><span class='flag-icon flag-icon-gb'></span></a>
 - name: <a href="https://pilpil.io/cn"><span class='flag-icon flag-icon-cn'></span></a>
-
