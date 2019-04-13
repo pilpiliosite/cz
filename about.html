@@ -14,6 +14,7 @@ members:
   - name: Davit
     avatar: images/team/davit.png
     avatar_hover: images/team/davit.png
+    position: Vystudoval turistický management. Miluje Tbilisi a jeho tempo. Stejně jako zbytek týmu má rád horskou turistiku a cestování kolem světa. Od roku 2003 pracoval s mládeží a organizoval mezinárodní vzdělávací projekty v Gruzii, Litvě a dalších místech Evropy. 
 ---
 
 <div class="full centered-text tree">
@@ -62,12 +63,15 @@ members:
       </div>
     </div>
   </div>
-  <div class="row">
     {% for member in page.members %}
-      <div class="large-3 columns">
+    <div class="row">
+
+      <div class="large-12 columns">
         <div class="member">
           <img src="{{site.url}}/{{member.avatar}}" alt="">
           <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+        </div>
+        <div class="centered-text">
           <div class="member-info">
             <h4>{{member.name}}</h4>
             <p class="position">{{member.position}}</p>
@@ -79,8 +83,6 @@ members:
           </div>
         </div>
       </div>
+      </div>
     {% endfor %}
   </div>
-</div>
-
-</div>
