@@ -55,24 +55,25 @@ members:
   </div>
 <div class="full light-grey">
   <div class="row">
-    <div class="large-8 columns">
-      <div class='form'>
-        <form id='contact_form' method='POST'>
-          <p id='thanks' class='hide'>
-            Thanks for contacting us, we'll be in touch soon!
-          </p>
-          <input class='required' name='name' placeholder='NAME' type='text'>
-          <input class='required email' name='email' placeholder='EMAIL' type='text'>
-          <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-          <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-          <div class='spacing'></div>
-          <input class='button small boxed brown' type='submit'>
-        </form>
+    <div class="large-10 columns">
+      <div class="large-12 columns">
+        <h3>Napište nám</h3>
+      </div>
+
+
+      </div>
+      <form action="https://formspree.io/info@pilpil.io"
+      method="POST">
+    <input type="text" name="name" placeholder="Your Name">
+    <input type="email" name="_replyto" placeholder="Your Email">
+    <input type="text" name="message" placeholder="Write your Message">
+
+    <input type="submit" class='button small boxed brown' value="Send">
+  </form>
+
+
       </div>
     </div>
-    <div class="large-4 columns">
-      <h3>Napište nám</h3>
-      <p></p>
-    </div>
-  </div>
+
+  
 </div>
