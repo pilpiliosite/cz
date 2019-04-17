@@ -1328,8 +1328,7 @@ form.update-form input.button:hover {
     font-size: 24px;
     margin-bottom: 10px;
     display: block;
-    color: #ACC06C;
-    height: 800px; }
+    color: #ACC06C; }
 
 /* Bargraph */
 .modBarGraph .bars {
