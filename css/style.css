@@ -449,7 +449,7 @@ ul.socials {
 /* testimonials */
 .quote {
   margin-bottom: 40px;
-  padding: 20px 0px 0px 0px;
+  padding: unset;
   border: 1px solid #eee;
   text-align: right;
   overflow-x: hidden;
