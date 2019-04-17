@@ -85,7 +85,7 @@
   background-repeat: no-repeat;
   background-position: center 100%;
   background-attachment: fixed; }
-  
+
 .full.contact {
   position: relative;
   min-height: 100%;
@@ -93,14 +93,14 @@
   background-repeat: no-repeat;
   background-position: center 100%;
   background-attachment: fixed; }  
-    
+  
 .full.tours {
   position: relative;
   min-height: 100%;
   background-image: url(../images/24.jpg);
   background-repeat: no-repeat;
   background-position: center 100%;
-  background-attachment: fixed; } 
+  background-attachment: fixed; }  
 
 .full.logo {
   min-height: 100%;
@@ -109,9 +109,10 @@
   background-position: center 100%;
   background-attachment: fixed; }
 
-.full.backcz {
+.full.back {
+  position: relative;
   min-height: 100%;
-  background-image: url(../images/backcz.jpg);
+  background-image: url(../images/back.jpg);
   background-repeat: no-repeat;
   background-position: center 100%;
   background-attachment: fixed; }
